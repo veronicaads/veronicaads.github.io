@@ -1,6 +1,6 @@
 export interface WebsiteConfig {
-  title: 'Veronica';
-  description: 'I want change the title';
+  title: string;
+  description: string;
   coverImage: string;
   logo: string;
   /**
@@ -49,8 +49,8 @@ export interface WebsiteConfig {
 }
 
 const config: WebsiteConfig = {
-  title: 'Ghost',
-  description: 'The professional publishing platform',
+  title: 'Veronica',
+  description: 'I want change the title',
   coverImage: 'img/blog-cover.jpg',
   logo: 'img/ghost-logo.png',
   lang: 'en',
