@@ -1,5 +1,5 @@
 export interface WebsiteConfig {
-  title: 'Veronica';
+  title: string;
   description: string;
   coverImage: string;
   logo: string;
