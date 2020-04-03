@@ -1,6 +1,6 @@
 export interface WebsiteConfig {
-  title: string;
-  description: string;
+  title: 'Veronica';
+  description: 'I want change the title';
   coverImage: string;
   logo: string;
   /**
